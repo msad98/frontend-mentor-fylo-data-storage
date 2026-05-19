@@ -140,18 +140,6 @@ progress::-webkit-progress-bar {
   border-radius: var(--border-radius-standard);
 }
 
-progress::-webkit-progress-value::after {
-  content: "";
-  display: block;
-  width: 10px;
-  height: 10px;
-  background-color: white;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  right: 0;
-}
-
 progress::-moz-progress-bar {
   background: linear-gradient(90deg, var(--light-pink), var(--vivid-pink));
 }
