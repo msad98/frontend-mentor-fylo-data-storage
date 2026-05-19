@@ -14,7 +14,7 @@ body {
   background-color: var(--blue-950);
   background-image: url(./images/bg-desktop.png);
   background-repeat: no-repeat;
-  background-position: 0 150%;
+  background-position: 0 100%;
   background-size: contain;
 }
 
