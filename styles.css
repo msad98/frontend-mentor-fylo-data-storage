@@ -126,12 +126,13 @@ main {
   vertical-align: middle;
 }
 
-.storage-bar {
+.progress {
   width: 100%;
   height: 15px;
   border-radius: var(--border-radius-standard);
   overflow: hidden;
   appearance: none;
+  -webkit-appearance: none;
 }
 
 /* Override the progress bar styles for WebKit browsers (Chrome, Safari) */
